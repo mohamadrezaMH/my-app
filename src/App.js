@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import LineChartComponent from "./LineChartComponent";
+import PlantChart from './PlantChart';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
       <h1>React Line Chart Example</h1>
-      <LineChartComponent />
+      <PlantChart />
       </header>
     </div>
   );
